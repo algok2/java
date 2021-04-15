@@ -1,0 +1,1 @@
+<64bit> https://cdn.azul.com/zulu/bin/zulu8.33.0.1-jdk8.0.192-win_x64.msi
