@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class JavaArrayListOfStringArray {
+
+	public static void main(String[] args) {
+		// List of String arrays
+		List<int[]> list = new ArrayList<int[]>();
+		
+		int[] arr1 = { 1, 2, 3 };
+		int[] arr2 = { 5, 6, 7, 8 };
+		list.add(arr1);
+		list.add(arr2);
+		// printing list of String arrays in the ArrayList
+		for (String[] strArr : list) {
+			System.out.println(Arrays.toString(strArr));
+		}
+    
+    list.get(0)[0] = 4;
+	}
+
+}
